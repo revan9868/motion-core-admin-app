@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Motion Core Admin",
+    "slug": "motion-core-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09090b"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.motioncore.admin"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#09090b",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "com.motioncore.admin",
+      "permissions": [
+        "USE_BIOMETRIC"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Gunakan Face ID untuk membuka aplikasi"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1396723d-2bf9-4542-9b0a-9054be7a6874"
+      }
+    },
+    "owner": "revan9868"
+  }
+}
